@@ -5,8 +5,11 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Web;
 using System.Web.Http;
+using System.Web.Http.Description;
 using System.Web.Mvc;
 
 namespace MontenssariAPI.Controllers
@@ -61,10 +64,13 @@ namespace MontenssariAPI.Controllers
 
         [System.Web.Http.HttpPost]
         [System.Web.Http.AllowAnonymous]
-        public void UserInsert(ModelUser objModelUser)
+        [ResponseType(typeof(string))]
+
+        public HttpResponseMessage UserInsert(ModelUser objModelUser)
         {
             try
             {
+                List<ModelUser> lstModelUser = new List<ModelUser>();
                 List<SqlParameter> ParameterList = new List<SqlParameter>();
                 ParameterList.Add(DataAccess.GetDBParameter("@USERNAME", SqlDbType.VarChar, DbConstant.VARCHAR_100, ParameterDirection.Input, objModelUser.UserName));
                 ParameterList.Add(DataAccess.GetDBParameter("@EMAIL", SqlDbType.NVarChar, DbConstant.NVARCHAR_100, ParameterDirection.Input, objModelUser.EMail));
@@ -73,12 +79,19 @@ namespace MontenssariAPI.Controllers
                 ParameterList.Add(DataAccess.GetDBParameter("@MOBILENO", SqlDbType.VarChar, DbConstant.VARCHAR_20, ParameterDirection.Input, objModelUser.MobileNo));
                 ParameterList.Add(DataAccess.GetDBParameter("@MOBILENOVERIFIEDYN", SqlDbType.Int, DbConstant.INT, ParameterDirection.Input, objModelUser.MobileVerifiedYN));
                 ParameterList.Add(DataAccess.GetDBParameter("@USERCODE", SqlDbType.Int, DbConstant.INT, ParameterDirection.Input, objModelUser.UserCode));
-                DataAccess.ExecSPReturnInt("PRUSERINSERT", ParameterList);
+                DataTable dt = DataAccess.ExecSPReturnDataTable("PRUSERINSERT", ParameterList);
+                foreach (DataRow items in dt.Rows)
+                {
+                    objModelUser.UserID = Convert.ToInt16(items["FLDUSERID"].ToString());
+                    lstModelUser.Add(objModelUser);
+                }
             }
             catch (Exception)
             {
                 throw;
             }
+            return Request.CreateResponse(HttpStatusCode.OK, objModelUser);
+
         }
         [System.Web.Http.HttpPost]
         [System.Web.Http.AllowAnonymous]

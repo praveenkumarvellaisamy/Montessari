@@ -22,22 +22,42 @@
     <script src="js/custom.js"></script>
     <script>
         $(document).ready(function () {
+            $("#loginwrap").show();
+
             $("#main-login").click(function () {
-                $("#login-wrap").fadeIn();
-                $("#signup-wrap").hide();
+                $("#loginwrap").fadeIn();
+                $("#ForgotPasswordwrap").hide();
+                $("#signupwrap").hide();
             });
 
             $("#btn-signup").click(function () {
-                $("#signup-wrap").fadeIn();
-                $("#login-wrap").hide();
+                $("#signupwrap").fadeIn();
+                $("#loginwrap").hide();
+                $("#ForgotPasswordwrap").hide();
             });
 
             $("#btn-login").click(function () {
-                $("#signup-wrap").hide();
-                $("#login-wrap").fadeIn();
+                $("#signupwrap").hide();
+                $("#loginwrap").fadeIn();
+                $("#ForgotPasswordwrap").hide();
+            });
+            $("#btn-login1").click(function () {
+                $("#signupwrap").hide();
+                $("#loginwrap").fadeIn();
+                $("#ForgotPasswordwrap").hide();
+            });
+            $("#btnFP").click(function () {
+                $("#signupwrap").hide();
+                $("#loginwrap").hide();
+                $("#ForgotPasswordwrap").fadeIn();
             });
         });
     </script>
+    <style>
+        .login-input {
+            margin: 10px !important;
+        }
+    </style>
 </head>
 <body>
     <form id="frm" runat="server">
@@ -63,7 +83,7 @@
 
 
                     <div class="col-lg-6">
-                        <div class="main-wrap" id="login-wrap" style="display: none;">
+                        <div class="main-wrap" style="display:none;" id="loginwrap" runat="server">
                             <div class="login-title">Login</div>
                             <%-- <input type="text" class="login-input" placeholder="User ID"/>
         <input type="password" class="login-input" placeholder="Password"/>--%>
@@ -75,26 +95,40 @@
                             <div class="mt-3 w-100">
                                 <%--<button type="button" class="btn login-btn" onclick="location.href='Login/Profile.aspx'">Login</button>--%>
                                 <asp:Button ID="btnLogin" runat="server" class="btn login-btn" OnClick="btnLogin_Click" Text="Login" />
-                                <span class="forgot-pass"><a href="#">Forgot Password?</a></span>
+                                <span class="forgot-pass"><a href="#" id="btnFP">Forgot Password?</a></span>
                             </div>
                             <div class="signup-text">New to Sparkles, <a href="#" id="btn-signup">Sign Up</a> to explore</div>
                         </div>
-
-
-                        <div class="main-wrap" style="display: none;" id="signup-wrap">
+                        <div class="main-wrap" style="display: none;" runat="server" id="signupwrap">
                             <div class="login-title">Register</div>
                             <%--<input type="text" class="login-input" placeholder="Name"/>--%>
                             <%--<input type="text" class="login-input" placeholder="Email"/>--%>
                             <%--<input type="password" class="login-input" placeholder="Password"/>--%>
                             <asp:TextBox ID="txtUserName" runat="server" placeholder="Name" CssClass="login-input"></asp:TextBox>
                             <asp:TextBox ID="txtEmail" runat="server" placeholder="Email" CssClass="login-input"></asp:TextBox>
+                            <asp:TextBox ID="txtMobileNumber" MaxLength="10" runat="server" placeholder="Mobile Number" CssClass="login-input"></asp:TextBox>
                             <asp:TextBox ID="txtPassword" TextMode="Password" runat="server" placeholder="Password" CssClass="login-input"></asp:TextBox>
-
+                             <div class="mt-3 w-100" id="divErrorMessage" runat="server" visible="false">
+                                <asp:Label ID="lblErrorMessageRegiter" runat="server"></asp:Label>
+                            </div>
                             <div class="mt-3 w-100">
                                 <%--<button type="button" class="btn login-btn" onclick="location.href='#'">Register</button>--%>
                                 <asp:Button ID="btnRegister" runat="server" class="btn login-btn" OnClick="btnRegister_Click" Text="Register" />
                             </div>
                             <div class="signup-text">Already have an account? <a href="#" id="btn-login">Login Now</a></div>
+                        </div>
+                        <div class="main-wrap" runat="server" style="display: none;" id="ForgotPasswordwrap">
+                            <div class="login-title">Forgot Password</div>
+                            <%--<input type="text" class="login-input" placeholder="Name"/>--%>
+                            <%--<input type="text" class="login-input" placeholder="Email"/>--%>
+                            <%--<input type="password" class="login-input" placeholder="Password"/>--%>
+                            <asp:TextBox ID="txtUserNameFP" runat="server" placeholder="User Name" CssClass="login-input"></asp:TextBox>
+                            <asp:TextBox ID="txtEmailFP" runat="server" placeholder="Email" CssClass="login-input"></asp:TextBox>
+                            <div class="mt-3 w-100">
+                                <%--<button type="button" class="btn login-btn" onclick="location.href='#'">Register</button>--%>
+                                <asp:Button ID="btnSendOTP" runat="server" class="btn login-btn" OnClick="btnSendOTP_Click" Text="Send OTP" />
+                            </div>
+                            <div class="signup-text"><a href="#" id="btn-login1">Login Now</a></div>
                         </div>
                     </div>
                 </div>
