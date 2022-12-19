@@ -21,6 +21,9 @@ public partial class Login : System.Web.UI.Page
     {
         try
         {
+            int IsValidInput = 0;
+            if (txtUserNameInput.Text == "" || txtPasswordInput.Text == "")
+                IsValidInput = 1;
             string EndPoint = "api/User/CheckUser";
             var Params = new
             {
@@ -29,7 +32,12 @@ public partial class Login : System.Web.UI.Page
             };
             var APIResponse = MontessoriAPI.WebPOST(EndPoint, Params);
 
-            if (APIResponse != "True")
+            if(IsValidInput == 1)
+            {
+                divError.Visible = true;
+                lblErrorMessage.Text = "Please Enter Username or Password!";
+            }
+            else if (APIResponse != "True")
             {
                 divError.Visible = true;
                 lblErrorMessage.Text = "You are not an authorized person!";
@@ -49,6 +57,31 @@ public partial class Login : System.Web.UI.Page
     }
 
     protected void btnRegister_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            string EndPoint = "api/User/UserInsert";
+            var Params = new
+            {
+                UserName = txtUserNameInput.Text,
+                Password = txtPasswordInput.Text,
+                EMail = txtEmail.Text,
+                EMailVerifiedYN = 1,
+                MobileNo = txtMobileNumber.Text,
+                MobileVerifiedYN = "1",
+                UserCode = "1"
+            };
+            var APIResponse = MontessoriAPI.WebPOST(EndPoint, Params);
+            divErrorMessage.Visible = true;
+            lblErrorMessageRegiter.Text = "Saved Successfully";
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
+    protected void btnSendOTP_Click(object sender, EventArgs e)
     {
 
     }
