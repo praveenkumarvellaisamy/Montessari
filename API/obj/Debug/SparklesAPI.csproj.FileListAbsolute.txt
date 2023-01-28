@@ -1,0 +1,167 @@
+E:\Sparkles\SparklesAPI\bin\SparklesAPI.dll.config
+E:\Sparkles\SparklesAPI\bin\SparklesAPI.dll
+E:\Sparkles\SparklesAPI\bin\SparklesAPI.pdb
+E:\Sparkles\SparklesAPI\bin\roslyn\csc.exe
+E:\Sparkles\SparklesAPI\bin\roslyn\csc.exe.config
+E:\Sparkles\SparklesAPI\bin\roslyn\csc.rsp
+E:\Sparkles\SparklesAPI\bin\roslyn\csi.exe
+E:\Sparkles\SparklesAPI\bin\roslyn\csi.rsp
+E:\Sparkles\SparklesAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Sparkles\SparklesAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Sparkles\SparklesAPI\bin\roslyn\System.AppContext.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\System.IO.FileSystem.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Sparkles\SparklesAPI\bin\roslyn\vbc.exe
+E:\Sparkles\SparklesAPI\bin\roslyn\vbc.exe.config
+E:\Sparkles\SparklesAPI\bin\roslyn\vbc.rsp
+E:\Sparkles\SparklesAPI\bin\roslyn\VBCSCompiler.exe
+E:\Sparkles\SparklesAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\Sparkles\SparklesAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Sparkles\SparklesAPI\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Sparkles\SparklesAPI\bin\Microsoft.IdentityModel.Logging.dll
+E:\Sparkles\SparklesAPI\bin\Microsoft.IdentityModel.Tokens.dll
+E:\Sparkles\SparklesAPI\bin\Microsoft.Owin.dll
+E:\Sparkles\SparklesAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Sparkles\SparklesAPI\bin\Microsoft.Owin.Security.dll
+E:\Sparkles\SparklesAPI\bin\Microsoft.Owin.Security.Jwt.dll
+E:\Sparkles\SparklesAPI\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Sparkles\SparklesAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\Sparkles\SparklesAPI\bin\Newtonsoft.Json.dll
+E:\Sparkles\SparklesAPI\bin\Owin.dll
+E:\Sparkles\SparklesAPI\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\Sparkles\SparklesAPI\bin\System.Net.Http.Formatting.dll
+E:\Sparkles\SparklesAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Sparkles\SparklesAPI\bin\System.Web.Helpers.dll
+E:\Sparkles\SparklesAPI\bin\System.Web.Http.dll
+E:\Sparkles\SparklesAPI\bin\System.Web.Http.Owin.dll
+E:\Sparkles\SparklesAPI\bin\System.Web.Http.WebHost.dll
+E:\Sparkles\SparklesAPI\bin\System.Web.Mvc.dll
+E:\Sparkles\SparklesAPI\bin\System.Web.Razor.dll
+E:\Sparkles\SparklesAPI\bin\System.Web.WebPages.Deployment.dll
+E:\Sparkles\SparklesAPI\bin\System.Web.WebPages.dll
+E:\Sparkles\SparklesAPI\bin\System.Web.WebPages.Razor.dll
+E:\Sparkles\SparklesAPI\bin\Microsoft.IdentityModel.JsonWebTokens.pdb
+E:\Sparkles\SparklesAPI\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\Sparkles\SparklesAPI\bin\Microsoft.IdentityModel.Logging.pdb
+E:\Sparkles\SparklesAPI\bin\Microsoft.IdentityModel.Logging.xml
+E:\Sparkles\SparklesAPI\bin\Microsoft.IdentityModel.Tokens.pdb
+E:\Sparkles\SparklesAPI\bin\Microsoft.IdentityModel.Tokens.xml
+E:\Sparkles\SparklesAPI\bin\Microsoft.Owin.xml
+E:\Sparkles\SparklesAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Sparkles\SparklesAPI\bin\Microsoft.Owin.Security.xml
+E:\Sparkles\SparklesAPI\bin\Microsoft.Owin.Security.Jwt.xml
+E:\Sparkles\SparklesAPI\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Sparkles\SparklesAPI\bin\System.IdentityModel.Tokens.Jwt.pdb
+E:\Sparkles\SparklesAPI\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\Sparkles\SparklesAPI\bin\System.Net.Http.Formatting.xml
+E:\Sparkles\SparklesAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Sparkles\SparklesAPI\bin\System.Web.Helpers.xml
+E:\Sparkles\SparklesAPI\bin\System.Web.Http.xml
+E:\Sparkles\SparklesAPI\bin\System.Web.Http.Owin.xml
+E:\Sparkles\SparklesAPI\bin\System.Web.Mvc.xml
+E:\Sparkles\SparklesAPI\bin\System.Web.Razor.xml
+E:\Sparkles\SparklesAPI\bin\System.Web.WebPages.xml
+E:\Sparkles\SparklesAPI\bin\System.Web.WebPages.Deployment.xml
+E:\Sparkles\SparklesAPI\bin\System.Web.WebPages.Razor.xml
+E:\Sparkles\SparklesAPI\bin\Newtonsoft.Json.xml
+E:\Sparkles\SparklesAPI\bin\System.Web.Http.WebHost.xml
+E:\Sparkles\SparklesAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Sparkles\SparklesAPI\obj\Debug\SparklesAPI.csproj.CoreCompileInputs.cache
+E:\Sparkles\SparklesAPI\obj\Debug\SparklesAPI.csproj.CopyComplete
+E:\Sparkles\SparklesAPI\obj\Debug\SparklesAPI.dll
+E:\Sparkles\SparklesAPI\obj\Debug\SparklesAPI.pdb
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\SparklesAPI.dll.config
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\SparklesAPI.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\SparklesAPI.pdb
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\csc.exe
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\csc.exe.config
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\csc.rsp
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\csi.exe
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\csi.rsp
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\System.AppContext.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\vbc.exe
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\vbc.exe.config
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\vbc.rsp
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.Owin.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.Owin.Security.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.Owin.Security.Jwt.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Newtonsoft.Json.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Owin.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.Helpers.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.Http.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.Http.Owin.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.Mvc.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.Razor.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.WebPages.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.IdentityModel.JsonWebTokens.pdb
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.IdentityModel.Logging.pdb
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.IdentityModel.Tokens.pdb
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.Owin.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.Owin.Security.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.Helpers.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.Http.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.Http.Owin.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.Mvc.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.Razor.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.WebPages.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Newtonsoft.Json.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\obj\Debug\SparklesAPI.csproj.AssemblyReference.cache
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\obj\Debug\SparklesAPI.csproj.CoreCompileInputs.cache
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\obj\Debug\SparklesAPI.csproj.CopyComplete
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\obj\Debug\SparklesAPI.dll
+C:\Users\developer25\OneDrive - Executive Ship Management Pte Ltd\Desktop\API Test\SparklesAPI\obj\Debug\SparklesAPI.pdb
